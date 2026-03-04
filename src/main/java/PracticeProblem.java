@@ -32,7 +32,7 @@ public class PracticeProblem {
 	int num1 = input.nextInt();
 	String num2 = num1 + "4";
 	double num3 = Double.parseDouble(num2);
-	System.out.println(num3);
+	System.out.println(num3 + 2);
 	}
 
 	public static void q3() {
@@ -49,7 +49,7 @@ public class PracticeProblem {
 	Scanner input = new Scanner(System.in);
 	System.out.print("Input a number: ");
 	double num1 = input.nextDouble();
-	double num2 = (Math.round(num1 * 12));
+	double num2 = (Math.floor(num1 * 12));
 	System.out.println(num2);
 	}
 
