@@ -29,9 +29,10 @@ public class PracticeProblem {
 		//Write question 2 code here
 	Scanner input = new Scanner(System.in);
 	System.out.print("Input a number: ");
-	int num = input.nextInt();
-	double dnum = Double.parseDouble(num + 4);
-	System.out.println(dnum);
+	int num1 = input.nextInt();
+	String num2 = num1 + "4";
+	double num3 = Double.parseDouble(num2);
+	System.out.println(num3);
 	}
 
 	public static void q3() {
@@ -39,7 +40,7 @@ public class PracticeProblem {
 	Scanner input = new Scanner(System.in);
 	System.out.print("Input a radius: ");
 	double radius = input.nextDouble();
-	double dradius = Double.parseDouble(radius * radius * 3.14);
+	double dradius = radius * radius * 3.14;
 	System.out.println(dradius);
 	}
 
@@ -48,7 +49,7 @@ public class PracticeProblem {
 	Scanner input = new Scanner(System.in);
 	System.out.print("Input a number: ");
 	double num1 = input.nextDouble();
-	double num2 = Double.parseDouble(Math.round(num1 * 12));
+	double num2 = (Math.round(num1 * 12));
 	System.out.println(num2);
 	}
 
